@@ -14,6 +14,7 @@ import {
   WindIcon,
 } from "./components/Icons";
 
+//app
 const App = () => {
   const [weather, setWeather] = useState(null);
   const [city, setCity] = useState("");

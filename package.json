@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+     "build": "vite build",
     "dev": "vite",
     "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
