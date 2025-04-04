@@ -5,11 +5,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "build": "vite build",
+    "build": "vite build",
     "dev": "vite",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +23,7 @@
     "postcss": "^8.5.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-router-dom": "^7.4.1",
     "rollup": "^4.39.0",
     "source-map-js": "^1.2.1",
     "vite": "^6.2.4"
